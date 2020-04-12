@@ -96,56 +96,65 @@
             })();
           </script>
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-          <div class="bk-root" id="84c029f2-008b-4653-a7cf-0c48f2b322e7" data-root-id="10723"></div>
-            <script type="application/json" id="10834">
-              {"2666bf5d-e0c6-4c53-a536-dbc96db46162":{"roots":{"references":[{"attributes":{},"id":"10745","type":"WheelZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"10759","type":"Circle"},{"attributes":{},"id":"10747","type":"SaveTool"},{"attributes":{"below":[{"id":"10734","type":"LinearAxis"}],"center":[{"id":"10738","type":"Grid"},{"id":"10743","type":"Grid"}],"left":[{"id":"10739","type":"LinearAxis"}],"plot_height":400,"renderers":[{"id":"10760","type":"GlyphRenderer"}],"title":{"id":"10724","type":"Title"},"toolbar":{"id":"10750","type":"Toolbar"},"x_range":{"id":"10726","type":"DataRange1d"},"x_scale":{"id":"10730","type":"LinearScale"},"y_range":{"id":"10728","type":"DataRange1d"},"y_scale":{"id":"10732","type":"LinearScale"}},"id":"10723","subtype":"Figure","type":"Plot"},{"attributes":{"ticker":{"id":"10735","type":"BasicTicker"}},"id":"10738","type":"Grid"},{"attributes":{},"id":"10744","type":"PanTool"},{"attributes":{"source":{"id":"10757","type":"ColumnDataSource"}},"id":"10761","type":"CDSView"},{"attributes":{},"id":"10732","type":"LinearScale"},{"attributes":{"callback":null},"id":"10728","type":"DataRange1d"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"10767","type":"BoxAnnotation"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"10744","type":"PanTool"},{"id":"10745","type":"WheelZoomTool"},{"id":"10746","type":"BoxZoomTool"},{"id":"10747","type":"SaveTool"},{"id":"10748","type":"ResetTool"},{"id":"10749","type":"HelpTool"}]},"id":"10750","type":"Toolbar"},{"attributes":{},"id":"10765","type":"BasicTickFormatter"},{"attributes":{"axis_label":"Years","axis_label_text_font_size":{"value":"20pt"},"formatter":{"id":"10763","type":"BasicTickFormatter"},"ticker":{"id":"10735","type":"BasicTicker"}},"id":"10734","type":"LinearAxis"},{"attributes":{},"id":"10730","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"orange"},"line_alpha":{"value":0.5},"line_color":{"value":"orange"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"10758","type":"Circle"},{"attributes":{},"id":"10768","type":"Selection"},{"attributes":{"text":"Nitrogen Oxide Levels in the Air"},"id":"10724","type":"Title"},{"attributes":{"data_source":{"id":"10757","type":"ColumnDataSource"},"glyph":{"id":"10758","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"10759","type":"Circle"},"selection_glyph":null,"view":{"id":"10761","type":"CDSView"}},"id":"10760","type":"GlyphRenderer"},{"attributes":{},"id":"10769","type":"UnionRenderers"},{"attributes":{},"id":"10735","type":"BasicTicker"},{"attributes":{"axis_label":"% Change from 1990","axis_label_text_font_size":{"value":"20pt"},"formatter":{"id":"10765","type":"BasicTickFormatter"},"ticker":{"id":"10740","type":"BasicTicker"}},"id":"10739","type":"LinearAxis"},{"attributes":{},"id":"10749","type":"HelpTool"},{"attributes":{"callback":null},"id":"10726","type":"DataRange1d"},{"attributes":{"overlay":{"id":"10767","type":"BoxAnnotation"}},"id":"10746","type":"BoxZoomTool"},{"attributes":{"dimension":1,"ticker":{"id":"10740","type":"BasicTicker"}},"id":"10743","type":"Grid"},{"attributes":{"callback":null,"data":{"x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],"y":[0,-4,-2,0,5,8,11,17,19,22,21,15,13,11,6,2,-4,-4,-7,-13,-12,-14,-18,-20,-22,-25,-27,-26]},"selected":{"id":"10768","type":"Selection"},"selection_policy":{"id":"10769","type":"UnionRenderers"}},"id":"10757","type":"ColumnDataSource"},{"attributes":{},"id":"10740","type":"BasicTicker"},{"attributes":{},"id":"10763","type":"BasicTickFormatter"},{"attributes":{},"id":"10748","type":"ResetTool"}],"root_ids":["10723"]},"title":"Bokeh Application","version":"1.3.4"}}
-            </script>
-            <script type="text/javascript">
-              (function() {
-                var fn = function() {
-                  Bokeh.safely(function() {
-                    (function(root) {
-                      function embed_document(root) {
-                      var docs_json = document.getElementById('10834').textContent;
-                      var render_items = [{"docid":"2666bf5d-e0c6-4c53-a536-dbc96db46162","roots":{"10723":"84c029f2-008b-4653-a7cf-0c48f2b322e7"}}];
-                      root.Bokeh.embed.embed_items(docs_json, render_items);
-                      }
-                      if (root.Bokeh !== undefined) {
-                        embed_document(root);
-                      } else {
-                        var attempts = 0;
-                        var timer = setInterval(function(root) {
-                          if (root.Bokeh !== undefined) {
-                            embed_document(root);
-                            clearInterval(timer);
-                          }
-                        attempts++;
-                          if (attempts > 100) {
-                            console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-                            clearInterval(timer);
-                          }
-                        }, 10, root)
-                      }
-                    })(window);
-                  });
-                };
-                if (document.readyState != "loading") fn();
-                else document.addEventListener("DOMContentLoaded", fn);
-              })();
-          </script>
-        </div>
+          <div class="bk-root" id="65f563a6-f935-459b-8e19-63c5183747db" data-root-id="1191"></div>
+      <script type="application/json" id="1302">
+        {"0a2393ab-bf52-442e-a224-65384fdbcc10":{"roots":{"references":[{"attributes":{},"id":"1198","type":"LinearScale"},{"attributes":{"source":{"id":"1225","type":"ColumnDataSource"}},"id":"1229","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1227","type":"Circle"},{"attributes":{"overlay":{"id":"1237","type":"BoxAnnotation"}},"id":"1214","type":"BoxZoomTool"},{"attributes":{},"id":"1203","type":"BasicTicker"},{"attributes":{"text":"Nitrogen Oxide Levels in the Air (1990-2017)"},"id":"1192","type":"Title"},{"attributes":{"ticker":{"id":"1203","type":"BasicTicker"}},"id":"1206","type":"Grid"},{"attributes":{},"id":"1200","type":"LinearScale"},{"attributes":{"axis_label":"Years","axis_label_text_font_size":{"value":"20pt"},"formatter":{"id":"1234","type":"BasicTickFormatter"},"ticker":{"id":"1203","type":"BasicTicker"}},"id":"1202","type":"LinearAxis"},{"attributes":{},"id":"1234","type":"BasicTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1212","type":"PanTool"},{"id":"1213","type":"WheelZoomTool"},{"id":"1214","type":"BoxZoomTool"},{"id":"1215","type":"SaveTool"},{"id":"1216","type":"ResetTool"},{"id":"1217","type":"HelpTool"}]},"id":"1218","type":"Toolbar"},{"attributes":{},"id":"1208","type":"BasicTicker"},{"attributes":{},"id":"1235","type":"Selection"},{"attributes":{},"id":"1212","type":"PanTool"},{"attributes":{},"id":"1236","type":"UnionRenderers"},{"attributes":{"axis_label":"% Change from 1990","axis_label_text_font_size":{"value":"20pt"},"formatter":{"id":"1232","type":"BasicTickFormatter"},"ticker":{"id":"1208","type":"BasicTicker"}},"id":"1207","type":"LinearAxis"},{"attributes":{"callback":null},"id":"1194","type":"DataRange1d"},{"attributes":{"data_source":{"id":"1225","type":"ColumnDataSource"},"glyph":{"id":"1226","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1227","type":"Circle"},"selection_glyph":null,"view":{"id":"1229","type":"CDSView"}},"id":"1228","type":"GlyphRenderer"},{"attributes":{},"id":"1217","type":"HelpTool"},{"attributes":{},"id":"1232","type":"BasicTickFormatter"},{"attributes":{},"id":"1216","type":"ResetTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1237","type":"BoxAnnotation"},{"attributes":{"callback":null,"data":{"x":[1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],"y":[0,-4,-2,0,5,8,11,17,19,22,21,15,13,11,6,2,-4,-4,-7,-13,-12,-14,-18,-20,-22,-25,-27,-26]},"selected":{"id":"1235","type":"Selection"},"selection_policy":{"id":"1236","type":"UnionRenderers"}},"id":"1225","type":"ColumnDataSource"},{"attributes":{},"id":"1215","type":"SaveTool"},{"attributes":{"below":[{"id":"1202","type":"LinearAxis"}],"center":[{"id":"1206","type":"Grid"},{"id":"1211","type":"Grid"}],"left":[{"id":"1207","type":"LinearAxis"}],"plot_height":400,"renderers":[{"id":"1228","type":"GlyphRenderer"}],"title":{"id":"1192","type":"Title"},"toolbar":{"id":"1218","type":"Toolbar"},"x_range":{"id":"1194","type":"DataRange1d"},"x_scale":{"id":"1198","type":"LinearScale"},"y_range":{"id":"1196","type":"DataRange1d"},"y_scale":{"id":"1200","type":"LinearScale"}},"id":"1191","subtype":"Figure","type":"Plot"},{"attributes":{"dimension":1,"ticker":{"id":"1208","type":"BasicTicker"}},"id":"1211","type":"Grid"},{"attributes":{"callback":null},"id":"1196","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"orange"},"line_alpha":{"value":0.5},"line_color":{"value":"orange"},"size":{"units":"screen","value":10},"x":{"field":"x"},"y":{"field":"y"}},"id":"1226","type":"Circle"},{"attributes":{},"id":"1213","type":"WheelZoomTool"}],"root_ids":["1191"]},"title":"Bokeh Application","version":"1.3.4"}}
+      </script>
+      <script type="text/javascript">
+        (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                    
+                var docs_json = document.getElementById('1302').textContent;
+                var render_items = [{"docid":"0a2393ab-bf52-442e-a224-65384fdbcc10","roots":{"1191":"65f563a6-f935-459b-8e19-63c5183747db"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+      </script>
+       <h5 class="header col s12 light">In the last decade there's been an increase in environmental awarness, but has this positively impacted the environment?  </h5>
       </div>
+    </div>
   </div>
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h1 class="header center white-text text-lighten-2">Water Quality</h1>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="assets/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="assets/water.jpeg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+        
+    </div>
   </div>
 
   <footer class="page-footer teal">
@@ -154,7 +163,6 @@
         <div class="col l6 s12">
           <h5 class="white-text">Additional Info</h5>
           <p class="grey-text text-lighten-4">All data used has been provided by the Canadian Government. Links to the data sets have been provided on the right</p>
-
 
         </div>
         <div class="col l3 s12">
